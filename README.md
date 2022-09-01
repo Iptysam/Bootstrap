@@ -1,8 +1,10 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Try Bootsrap
 
 > Description the project.
+- Understand the concept of CSS Framework
+- Understand how to apply Bootsrap
 
 
 ## Built With
