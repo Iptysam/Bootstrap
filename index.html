@@ -4,26 +4,27 @@
     <meta charset="UTF-8">
     <meta name = "viewport" content="width=device-width, initial-scale=1">
     <title>My Portfolio</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"/>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css" />
 </head>
 <body>
      
     <header class="header">
         <p class="Logo"><a href="#">My Logo</a></p>
 
-        <nav class="navlinks">
-            <ul class="navitems">
-                <li class="vector1"><a href="#"></a></li>
-                <li class="vector2"><a href="#"></a></li>
-                <li class="vector3"><a href="#"></a></li>
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <ul class="navbar-nav">
+                <li class="nav-item"><a href="#" class="nav-link"></a></li>
+                <li class="nav-item"><a href="#" class="nav-link"></a></li>
+                <li class="nav-item"><a href="#" class="nav-link"></a></li>
             </ul>
         </nav>    
-        <nav class="navmenu">  
-            <ul class="menu">
-                <li class="portfolio"><a href="#">Portfolio</a></li>
-                <li class="about"><a href="#">About</a></li>
-                <li class="Contact"><a href="#">Contact</a></li>
+        <nav class="navbar navbar-expand-lg navbar-light">  
+            <ul class="navbar-menu">
+                <li class="nav-item"><a href="#scrollspyHeading1" class="nav-link">Portfolio</a></li>
+                <li class="nav-item"><a href="#scrollspyHeading2" class="nav-link">About</a></li>
+                <li class="nav-item"><a href="#scrollspyHeading3" class="nav-link">Contact</a></li>
             </ul>
         </nav>
     </header>
@@ -43,118 +44,121 @@
                 <li class="shape11"><a href="#"><img src="Images/Vector(3).jpg" alt="shape"></a></li>
             </ul>
         </div>
-        <section class="container">
-            <div class="container1">
-                <div class="rect1"></div>
-                <div class="left_block">
-                <h2 class="Proj1">Tonic</h2>
-                <ul class="list1">
-                    <li class="frame"><img src="Images/Frame2.png" alt="frame"></li>
+        <section class="container grid">
+            <div class="card flex bg-white">
+                <div class="card-img">
+                    <img src="Images/SnapshootPortfolio.png" alt="image">
+                </div>
+                <div class="card-body">
+                <h2 class="card-title">Tonic</h2>
+                <ul class="card-list">
+                    <li class="card-list-frame"><img src="Images/Frame2.png" class="card-list-img" alt="frame"></li>
                 </ul>
-                <p class="text1">A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
-                <ul class="Lang">
-                    <li class="HTML"><a href="#">html</a></li>
-                    <li class="css"><a href="#">CSS</a></li>
-                    <li class="Java"><a href="#">Javascript</a></li>
+                <p class="card-text">A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
+                <ul class="card-topic">
+                    <span class="badge bg-light text-dark">html</span>
+                    <span class="badge bg-light text-dark">css</span>
+                    <span class="badge bg-light text-dark">Javascript</span>
                 </ul>
-                <a href="#" class="button">See Project</a>
+                <button class="btn btn-primary fw-500 fz-17 lh-24 clr-p-500 bg-white" type="submit">See Project</button>
                 </div>
             </div>
 
-            <div class="container2">
-                <div class="rect2"></div>
-                <div class="left_block1">
-                <h3 class="Proj2">Multi-Post Stories</h3>
-                <ul class="list2">
-                    <li class="frame1"><img src="Images/Frame3.png" alt="frame"></li>
+            <div class="card flex bg-white">
+                <div class="card-img">
+                    <img src="Images/SnapshootPortfolio3.png" alt="image">
+                </div>
+                <div class="card-body">
+                <h3 class="card-title">Multi-Post Stories</h3>
+                <ul class="card-list">
+                    <li class="card-list-frame"><img src="Images/Frame2.png" class="card-list-img" alt="frame"></li>
                 </ul>
-                <ul class="list2b">
-                    <li class="frame1b"><img src="Images/Frame2.png" alt="frame"></li>
+                <p class="card-text">A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
+                <ul class="card-topic">
+                    <span class="badge bg-light text-dark">html</span>
+                    <span class="badge bg-light text-dark">css</span>
+                    <span class="badge bg-light text-dark">Javascript</span>
                 </ul>
-                <p class="text2">A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
-                <ul class="Lang1">
-                    <li class="HTML1"><a href="#">html</a></li>
-                    <li class="css1"><a href="#">CSS</a></li>
-                    <li class="Java1"><a href="#">Javascript</a></li>
-                </ul>
-                <a href="#" class="button1">See Project</a>
+                <button class="btn btn-primary fw-500 fz-17 lh-24 clr-p-500 bg-white" type="submit">See Project</button>
                 </div>
             </div>
 
-            <div class="container3">
-                <div class="rect3"></div>
-                <div class="left_block2">
-                <h4 class="Proj3a">Tonic</h4>
-                <h4 class="Proj3">Facebook 360</h4> 
-                <ul class="list1a">
-                <li class="frame2a"><img src="Images/Frame2.png" alt="frame"></li>
+            <div class="card flex bg-white">
+                <div class="card-img">
+                    <img src="Images/SnapshootPortfolio1.png" alt="images">
+                </div>
+                <div class="card-body">
+                <h4 class="card-title">Tonic</h4>
+                <ul class="card-list">
+                <li class="card-list-frame"><img src="Images/Frame2.png" class="card-list-img" alt="frame"></li>
                 </ul>
-                <p class="text1a">A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
-
-                <ul class="list3">
-                    <li class="frame2"><img src="Images/Frame3.png" alt="frame"></li>
+                <p class="card-text">A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
+                <ul class="card-topic">
+                    <span class="badge bg-light text-dark">html</span>
+                    <span class="badge bg-light text-dark">css</span>
+                    <span class="badge bg-light text-dark">Javascript</span>
                 </ul>
-                <p class="text3">Exploring the future of media in Facebook's first Virtual Reality app; a place to discover and enjoy 360 photos and videos on Gear VR.</p>
-                <ul class="Lang2">
-                    <li class="HTML2"><a href="#">html</a></li>
-                    <li class="css2"><a href="#">CSS</a></li>
-                    <li class="Java2"><a href="#">Javascript</a></li>
-                </ul>
-                <a href="#" class="button2">See Project</a>
-                <a href="#" class="handcursor"></a>
+                <button class="btn btn-primary fw-500 fz-17 lh-24 clr-p-500 bg-white" type="submit">See Project</button>
+                <img src="Images/handcursor.png" alt="img">
                 </div>
             </div>
 
-            <div class="container4">
-                <div class="rect4"></div>
-                <div class="left_block3">
-                <h5 class="Proj4a">Multi-Post Stories</h5>
-                <ul class="list4a">
-                    <li class="frame3a"><img src="Images/Frame2.png" alt="frame"></li>
+            <div class="card flex bg-white">
+                <div class="card-img">
+                    <img src="Images/SnapshootPortfolio2.png" alt="images">
+                </div>
+                <div class="card-body">
+                <h5 class="card-title">Multi-Post Stories</h5>
+                <ul class="card-list">
+                    <li class="card-list-frame"><img src="Images/Frame2.png" class="card-list-img" alt="frame"></li>
                 </ul>
-                <p class="text4a">A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
-                <h5 class="Proj4">Uber Navigation</h5>
-                <ul class="list4">
-                    <li class="frame3"><img src="Images/Frame4.png" alt="frame"></li>
+                <p class="card-text">A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
+                <ul class="card-topic">
+                    <span class="badge bg-light text-dark">html</span>
+                    <span class="badge bg-light text-dark">css</span>
+                    <span class="badge bg-light text-dark">Javascript</span>
                 </ul>
-                <p class="text4">A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.</p>
-                <ul class="Lang3">
-                    <li class="HTML3"><a href="#">html</a></li>
-                    <li class="css3"><a href="#">CSS</a></li>
-                    <li class="Java3"><a href="#">Javascript</a></li>
-                </ul>
-                <a href="#" class="button3">See Project</a>
+                <button class="btn btn-primary fw-500 fz-17 lh-24 clr-p-500 bg-white" type="submit">See Project</button>
                 </div>
             </div>
-            <section class="container5">
-                <h6 class="header3">About Myself</h6>
-                <p class="descrip">I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.</p>
-                <header class="links1">LET’S CONNECT</header>
-                <ul class="images1">
-                    <li class="shape12"><a href="#"><img src="Images/Vector.jpg" alt="shape"></a></li>
-                    <li class="shape17"><a href="#"><img src="Images/Linkedinicon.jpg" alt="shape"></a></li>
-                    <li class="shape18"><a href="#"><img src="Images/Vector(2).jpg" alt="shape"></a></li>
-                    <li class="shape19"><a href="#"><img src="Images/Vector(1).jpg" alt="shape"></a></li>
-                    <li class="shape16"><a href="#"><img src="Images/Vector(3).jpg" alt="shape"></a></li>  
-                </ul>
-                <a href="#" class="button4">Get my resume</a>
-                <div class="About">
-                    <ul>
-                        <li class="LANG"><a href="#">Languages</a></li>
-                        <li class="arr1"><a href="#"><img src="Images/Icon.png" alt="arrow"></a></li>
-                        <li class="FRAME"><a href="#">Frameworks</a></li>
-                        <li class="arr2"><a href="#"><img src="Images/Icon1.png" alt="arrow"></a></li>
-                        <li class="SKILL"><a href="#">Skills</a></li>
-                        <li class="arr3"><a href="#"><img src="Images/Icon1.png" alt="arrow"></a></li>
+            <section class="card-about bg-white flex">
+                <div class="about-me">
+                    <h6 class="about-title">About Myself</h6>
+                    <p class="about-text">I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.</p>
+                    <header class="about-connect">LET’S CONNECT</header>
+                    <ul class="about-icons-ul flex">
+                        <li class="about-icons-li"><a href="#" class="about-icons-link"><img src="Images/Vector.jpg" alt="shape"></a></li>
+                        <li class="about-icons-li"><a href="#" class="about-icons-link"><img src="Images/Linkedinicon.jpg" alt="shape"></a></li>
+                        <li class="about-icons-li"><a href="#" class="about-icons-link"><img src="Images/Vector(2).jpg" alt="shape"></a></li>
+                        <li class="about-icons-li"><a href="#" class="about-icons-link"><img src="Images/Vector(1).jpg" alt="shape"></a></li>
+                        <li class="about-icons-li"><a href="#" class="about-icons-link"><img src="Images/Vector(3).jpg" alt="shape"></a></li>  
                     </ul>
-                    <ul class="Lang4">
-                        <li class="Java4"><a href="#">Javascript</a></li>
-                        <li class="HTML4"><a href="#">HTML</a></li>
-                        <li class="css4"><a href="#">CSS</a></li>
-                    </ul> 
-                    <div class="shape13"></div>
-                    <div class="shape14"></div>
-                    <div class="shape15"></div>
+                    <button class="btn btn-primary fw-500 fz-17 lh-24 clr-p-500 bg-white" type="submit">Get my resume</button>
+                    <ul class="about-tools ul">
+                        <li class="about-lang">
+                            <div class="about-lang-top flex">
+                                <h3 class="about-lang-top-title fw-500 fz-20 lh-24 clr-n-900">Languages</h3>
+                                <img class="about-lang-top-img" src="Images/Icon.png" alt="arrow">
+                            </div>
+                            <ul class="about-lang-bottom flex gap-2 row align-item-center">
+                                <span class="badge bg-n-300"><img src="Images/Ellipse1.png" alt="icon"><p class="about-lang-bottom-name fw-500 fz-15 lh-20 clr-n-700">JavaScript</p></span>
+                                <span class="badge bg-n-300"><img src="Images/Ellipse2.png" alt="icon"><p class="about-lang-bottom-name fw-500 fz-15 lh-20 clr-n-700">HTML</p></span>
+                                <span class="badge bg-n-300"><img src="Images/Ellipse3.png" alt="icon"><p class="about-lang-bottom-name fw-500 fz-15 lh-20 clr-n-700">CSS</p></span>
+                            </ul>
+                        </li>
+                        <li class="about-framework">
+                            <div class="about-frameworks-top flex">
+                                <h3 class="about-frameworks-top-title fw-500 fz-20 lh-24 clr-n-900">Frameworks</h3>
+                                <img class="about-frameworks-top-img" src="Images/Icon1.png" alt="arrow">
+                            </div>
+                        </li>
+                        <li class="about-skills">
+                            <div class="about-skills-top flex">
+                                <h3 class="about-skills-top-title fw-500 fz-20 lh-24 clr-n-900">Skills</h3>
+                                <img class="about-skills-top-img" src="Images/Icon1.png" alt="arrow">
+                            </div>
+                        </li>
+                    </ul>
                 </div>
                  
             </section>
@@ -165,11 +169,11 @@
                     <input type="text" name="name" maxlength="30" placeholder="Iptisam Dawood" required>
                     <input type="email" name="email" placeholder="mukadamiptisam@gmail.com" required>
                     <textarea name="message" cols="30" rows="10" maxlength="500" placeholder="Write your message here" required></textarea>
-                    <button class="btn" type="submit">Get it Touch</button>
+                    <button class="btn btn-primary" type="submit">Get it Touch</button>
                 </form>
             </footer>
         </section>
     </section>    
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    
 </body>
 </html>
